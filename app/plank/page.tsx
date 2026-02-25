@@ -5,8 +5,8 @@ import PoseCamera from "@/components/PoseCamera";
 
 export default function PlankPage() {
   return (
-    <main className="min-h-dvh flex flex-col items-center gap-6 p-6">
-      <div className="flex items-center gap-4 w-full max-w-[640px]">
+    <main className="min-h-dvh flex flex-col items-center gap-4 p-3">
+      <div className="flex items-center gap-4 w-full">
         <Link href="/" className="text-gray-400 hover:text-white transition-colors">
           ← 戻る
         </Link>

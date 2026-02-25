@@ -150,7 +150,7 @@ export default function PoseCamera({
   }, [drawSkeleton]);
 
   return (
-    <div className="relative w-full max-w-[640px] mx-auto">
+    <div className="relative w-full mx-auto">
       <video ref={videoRef} className="hidden" playsInline muted />
       <canvas ref={canvasRef} className="w-full rounded-2xl shadow-lg" />
 
