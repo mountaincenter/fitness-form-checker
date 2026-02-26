@@ -24,8 +24,29 @@ export default function Home() {
       {/* Cards */}
       <div className="flex flex-col gap-4 w-full max-w-sm">
         <Link
-          href="/squat"
+          href="/posture"
           className="animate-in delay-2 group card-cut block p-6 bg-[var(--bg-surface)] border border-[var(--border)] hover:border-[var(--accent)] transition-all duration-300"
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="font-display text-3xl tracking-wide group-hover:text-[var(--accent)] transition-colors">
+                POSTURE
+              </p>
+              <p className="text-[var(--text-muted)] text-xs mt-1 tracking-wide uppercase">
+                Posture Check
+              </p>
+            </div>
+            <div className="w-12 h-12 rounded-full border border-[var(--border)] group-hover:border-[var(--accent)] group-hover:glow-accent flex items-center justify-center transition-all duration-300">
+              <svg className="w-5 h-5 text-[var(--text-muted)] group-hover:text-[var(--accent)] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </div>
+        </Link>
+
+        <Link
+          href="/squat"
+          className="animate-in delay-3 group card-cut block p-6 bg-[var(--bg-surface)] border border-[var(--border)] hover:border-[var(--accent)] transition-all duration-300"
         >
           <div className="flex items-center justify-between">
             <div>
@@ -46,7 +67,7 @@ export default function Home() {
 
         <Link
           href="/plank"
-          className="animate-in delay-3 group card-cut block p-6 bg-[var(--bg-surface)] border border-[var(--border)] hover:border-[var(--accent)] transition-all duration-300"
+          className="animate-in delay-4 group card-cut block p-6 bg-[var(--bg-surface)] border border-[var(--border)] hover:border-[var(--accent)] transition-all duration-300"
         >
           <div className="flex items-center justify-between">
             <div>
